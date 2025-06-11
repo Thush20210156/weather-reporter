@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Colombo Weather</title>
+</head>
+<body>
+  <h1>Weather in Colombo</h1>
+  <p>Temperature: <span id="temp"></span> °C</p>
+  <p>Humidity: <span id="humidity"></span>%</p>
+  <p>Wind Speed: <span id="wind"></span> kph</p>
+  <p>UV Index: <span id="uv"></span></p>
+
+  <script>
+    fetch('https://api.weatherapi.com/v1/current.json?key=YOUR_API_KEY&q=Colombo')
+      .then(res => res.json())
+      .then(data => {
+        document.getElementById('temp').textContent = data.current.temp_c;
+        document.getElementById('humidity').textContent = data.current.humidity;
+        document.getElementById('wind').textContent = data.current.wind_kph;
+        document.getElementById('uv').textContent = data.current.uv;
+      })
+      .catch(err => console.error("Error fetching data:", err));
+  </script>
+</body>
+</html>
