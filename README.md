@@ -22,5 +22,5 @@ This project was built as part of a coding challenge to display real-time weathe
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/simple-weather-reporter.git
-cd simple-weather-reporter
+git clone https://github.com/Thush20210156/weather-reporter.git
+cd weather-reporter
