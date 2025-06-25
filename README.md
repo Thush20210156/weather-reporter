@@ -16,13 +16,6 @@ This is a lightweight, responsive weather web application built with **HTML**, *
 - 📱 Fully **responsive** and mobile-friendly
 - 🔁 Auto-refreshes every 10 minutes
 
----
-
-## 📸 Preview
-
-![App Preview](preview.png) <!-- Add this screenshot to your repo if you have one -->
-
----
 
 ## 🚀 Live Demo
 
