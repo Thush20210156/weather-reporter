@@ -1,28 +1,62 @@
-# 🌤️ Dynamic Weather Reporter App
+# 🌦️ Weather Reporter
 
-This is a responsive, iOS-style weather web application built with **Next.js**, **Tailwind CSS**, and **TypeScript**. It uses [WeatherAPI.com](https://weatherapi.com) to fetch real-time weather data and supports global city search with saved location navigation.
+Live at 👉 [weather-report-app-orcin.vercel.app](https://weather-report-app-orcin.vercel.app/)
 
-## 🌟 Features
+This is a lightweight, responsive weather web application built with **HTML**, **CSS**, and **JavaScript**, enhanced with beautiful **GSAP animations** and powered by the [WeatherAPI](https://weatherapi.com). It allows users to get real-time weather updates for **Colombo** or any city they search for — all in a clean, animated interface.
 
-- 🔍 Lazy search for any location worldwide
-- 📌 Default location: Colombo, Sri Lanka
-- 💾 Save searched cities to revisit easily
-- 🧭 View local tourist attractions (mock or API)
-- 🎞️ Dynamic background video based on current weather
-- 📱 Swipe between saved city weather cards
-- 🌐 Deployed on [Vercel](https://vercel.com/)
+---
 
-## 📦 Tech Stack
+## ✨ Features
 
-- **Frontend:** Next.js, Tailwind CSS, TypeScript
-- **API:** WeatherAPI (`/v1/current.json`, `/v1/search.json`)
-- **State:** React Hooks + localStorage
-- **Deployment:** Vercel
-- **Dynamic Media:** HTML5 video (mp4 based on weather)
+- 🔍 **Search for any city** to view real-time weather
+- 📍 Default location: **Colombo, Sri Lanka**
+- 🌤️ Shows temperature, humidity, wind speed, UV index, and condition
+- ⏳ Loading indicators and ⚠️ graceful error handling
+- 💫 Smooth transitions and entry animations using **GSAP**
+- 📱 Fully **responsive** and mobile-friendly
+- 🔁 Auto-refreshes every 10 minutes
 
-## 🚀 Getting Started
+---
 
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/Thush20210156/weather-app.git
-   cd weather-app
+## 📸 Preview
+
+![App Preview](preview.png) <!-- Add this screenshot to your repo if you have one -->
+
+---
+
+## 🚀 Live Demo
+
+🌐 **[weather-report-app-orcin.vercel.app](https://weather-report-app-orcin.vercel.app/)**
+
+Deployed with [Vercel](https://vercel.com) for seamless hosting and auto-deployment.
+
+---
+
+## 🛠️ Tech Stack
+
+- **HTML5** – Semantic structure
+- **CSS3** – Modern layout with glassmorphism design
+- **JavaScript (ES6)** – Dynamic content rendering
+- **GSAP** – Rich animations and transitions
+- **WeatherAPI** – Live weather data
+
+---
+
+## 🧑‍🎨 Design Decisions & Challenges
+
+- Embraced **glassmorphism** and soft gradients to create a modern, calm interface.
+- Implemented **loading spinners** and meaningful **error feedback** for better UX.
+- Used **vanilla JS** and avoided frameworks to demonstrate simplicity and flexibility.
+- Handling API failures without breaking animations was an initial challenge.
+- Ensured full **mobile responsiveness** without relying on external CSS libraries.
+
+---
+
+## 🧪 Getting Started
+
+To run locally:
+
+```bash
+git clone https://github.com/Thush20210156/weather-reporter.git
+cd weather-reporter
+# Open index.html in your browser
